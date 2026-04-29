@@ -1,0 +1,10 @@
+duckdb>=1.0.0
+pandas>=2.0.0
+pyarrow>=12.0.0
+
+# Dashboard
+streamlit>=1.30.0
+altair>=5.0.0
+
+# Testing
+pytest>=7.0.0

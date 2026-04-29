@@ -1,0 +1,51 @@
+# ── Datos raw (nunca al repo — pueden contener info sensible) ──
+data/
+*.csv
+*.json
+*.parquet
+
+# ── Output generado por el pipeline ──
+output/
+*.duckdb
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Entornos virtuales ──
+venv/
+env/
+.venv/
+.env/
+
+# ── Variables de entorno (credenciales AWS, etc.) ──
+.env
+*.env
+.envrc
+
+# ── pytest ──
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── IDEs ──
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── macOS ──
+.DS_Store
+
+# ── Windows ──
+Thumbs.db
+desktop.ini
+
+# ── Logs ──
+*.log
